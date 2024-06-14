@@ -339,10 +339,7 @@ nav.bg-dark {
 
 /* start media query */
 @media (max-width: 1200px) {
-  .home-content {
-    /* transform: translate(-50%, -170%); */
-  }
-  .about{
+  .about {
     padding-top: 0 !important;
   }
 }
@@ -358,9 +355,7 @@ nav.bg-dark {
     width: 0;
   }
   /* intro section */
-  .about > .container {
-    /* margin-top: 300px; */
-  }
+
   .home {
     height: 600px;
   }
@@ -382,7 +377,6 @@ nav.bg-dark {
   .home {
     height: 56vh;
     overflow: hidden;
-    
   }
   .home h1 {
     font-size: 20px;
@@ -543,11 +537,10 @@ nav.bg-dark {
   cursor: pointer;
 }
 .fa-gear:hover::before {
-  
   animation-name: rotate;
-   animation-duration: 3s;
-   animation-iteration-count: 1;
-   transform-origin: center;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  transform-origin: center;
 }
 
 @keyframes rotate {

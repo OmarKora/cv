@@ -1,6 +1,6 @@
 let nav = document.querySelectorAll("ul.navbar-nav li");
 let navs = document.getElementsByClassName("nav-item");
-
+console.log(navs)
 for (var i = 0; i < navs.length; i++) {
   navs[i].addEventListener("click", function () {
     var current = document.getElementsByClassName("active");
